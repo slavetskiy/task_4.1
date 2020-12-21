@@ -40,7 +40,7 @@ class MainKtTest {
     }
     @Test
     fun calculatePrice_Silver() {
-        val expected = 960
+        val expected = 950
         val itemCount = 10
 
         val result = calculatePrice(itemCount, userLevel = "silver")

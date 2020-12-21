@@ -20,7 +20,7 @@ class MainKtTest {
     }
 
     @Test
-    fun calculatePriceDiscount() {
+    fun calculatePrice_Discount() {
         val expected = 900
         val itemCount = 10
 
@@ -30,7 +30,7 @@ class MainKtTest {
     }
 
     @Test
-    fun calculatePriceGold() {
+    fun calculatePrice_Gold() {
         val expected = 900
         val itemCount = 10
 
@@ -39,8 +39,8 @@ class MainKtTest {
         assertEquals(expected, result)
     }
     @Test
-    fun calculatePriceSilver() {
-        val expected = 950
+    fun calculatePrice_Silver() {
+        val expected = 960
         val itemCount = 10
 
         val result = calculatePrice(itemCount, userLevel = "silver")
